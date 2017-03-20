@@ -363,16 +363,21 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  min-height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #quotes-section content {
   padding: 5rem 0;
+  /*height: 160px;*/
 }
 
-#quotes-section quote {
-  padding-right: 1.875rem;
-  font-family: "Palatino", serif;
-  font-size: 1.875rem;
+#quotes-section .quote {
+  padding-right: 30px;
+  font-family: "Palatino-Italic", serif;
+  font-size: 30px;
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
@@ -404,12 +409,13 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+  height: 62px;
 }
 
 footer .content {
   color: white;
   display: flex;
-  font-size: .75rem;
+  font-size: 16px;
 }
 
 footer .copyright {
