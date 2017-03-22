@@ -81,6 +81,19 @@ header .mobile {
   display: none;
 }
 
+header .tablet {
+  display: none;
+}
+
+/*@media only screen and (max-width: 890) {
+  .tablet .button li {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+}*/
+
 @media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
@@ -89,6 +102,7 @@ header .mobile {
   header .mobile {
     display: block;
     width: 100%;
+    /*position: fixed;*/
   }
 
   header .content {
@@ -113,6 +127,7 @@ header .mobile {
     color: white;
   }
 }
+
 
 /* Sign Up Section */
 
@@ -175,7 +190,7 @@ header .mobile {
 }
 
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 890px) {
   #sign-up-section {
     align-items: center;
     justify-content: center;
@@ -208,7 +223,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 760px) {
   #sign-up-section {
     height: 20rem;
   }
@@ -294,7 +309,7 @@ header .mobile {
   }
 
   .feature .content {
-    
+
   }
 }
 
